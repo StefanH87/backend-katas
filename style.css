@@ -59,17 +59,25 @@ h1 {
 }
 
 div {
-  background: rgb(220, 233, 250);
   border-radius: 2rem;
   color: white;
   font-size: 1.2rem;
   padding: 2rem;
   margin-bottom: 1rem;
   transform: scale(1);
+  cursor: pointer;
+}
+div:nth-child(odd) {
+  background: rgb(220, 233, 250);
+}
+div:nth-child(even) {
+  background: rgb(210, 227, 245);
 }
 
 div:hover {
   background: rgb(193, 216, 245);
   transform: scale(1.1);
   font-size: 1.4rem;
+  box-shadow: inset -3px -3px 10px rgb(160, 181, 211),
+    inset 3px 3px 10px rgb(239, 242, 254);
 }
