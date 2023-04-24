@@ -16,7 +16,7 @@ body {
   background: rgb(242, 242, 242);
 }
 main {
-  margin: 10rem calc(1rem + 10vw) 5rem calc(1rem + 10vw);
+  margin: 3rem calc(1rem + 10vw) 5rem calc(1rem + 10vw);
 }
 
 header {
